@@ -53,7 +53,7 @@ const FeaturesTiles = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      <div className="container" id='about'>
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
@@ -147,12 +147,65 @@ const FeaturesTiles = ({
               </div>
             </div>
 
-            <Image src={require("./../../assets/images/chimp.jpg")} />
-
-
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
+                      alt="Features tile icon 04"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                  POPULATION 172,700 to 299,700
+                    </h4>
+                </div>
+              </div>
+            </div>
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
+                      alt="Features tile icon 04"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                  HABITATS Forests (moist and dry forests), Savannah Woodlands, and Grassland-Forest mosaics
+                    </h4>
+                </div>
+              </div>
+            </div>
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
+                      alt="Features tile icon 04"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                  SCIENTIFIC NAME Pan troglodytes
+                    </h4>
+                </div>
+              </div>
+            </div>
+            </div>
+            
+            </div>
+            
           </div>
-        </div>
-      </div>
     </section>
   );
 }

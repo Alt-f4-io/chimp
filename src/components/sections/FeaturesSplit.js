@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'About Chimpanzes',
+    paragraph: 'Like us, chimps are highly social animals, care for their offspring for years and can live to be over 50. In fact, chimpanzees are our closest cousins; we share about 98% of our genes.'
   };
 
   return (
@@ -67,13 +67,10 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Their habitat
                   </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                In their habitat in the forests of Central Africa, chimpanzees spend most of their days in the treetops. When they do come down to earth, chimps usually travel on all fours, though they can walk on their legs like humans for as far as a mile. They use sticks to fish termites out of mounds and bunches of leaves to sop up drinking water. 
                   </p>
               </div>
               <div className={
@@ -82,63 +79,30 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} />
+                <Image src={require("./../../assets/images/chimp.jpg")} />
               </div>
             </div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Their protection
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Protect chimpanzees through antipoaching and effective law enforcement help governments establish and manage national parks monitor chimpanzee populations encourage sustainable use of forest resources in park buffer zones  build trans-boundary collaboration to develop partnerships between neighboring countries
                   </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
-                  alt="Features split 02"
-                  width={528}
-                  height={396} />
               </div>
             </div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
+              <h3 className="mt-0 mb-12">
+                  Where are they found?
                   </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
-                  alt="Features split 03"
-                  width={528}
-                  height={396} />
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                Central and West Africa. In Democratic Republic of Congo, the Central African Republic, Gabon, Cameroon and other countries
+                  </div>
+  
               </div>
             </div>
 
